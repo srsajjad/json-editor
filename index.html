@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Json Editor</title>
+	
+	<style media="screen">
+		
+		.btn{
+			
+			border: 1px solid black ;
+			padding: 1px 6px ;
+			font: 13.3333px Arial;
+			background-color: buttonface;
+			border-style: outset;
+			border-color: buttonface;
+			border-image: initial;
+
+		}
+
+		li{
+			list-style: none
+		}
+
+	</style>
+
+</head>
+
+
+<body>
+
+	<div>
+		<label for="myFile" class="btn">Import JSON</label>
+		<input id="myFile" style="visibility:hidden" type="file">
+	</div>
+
+	<br>
+
+	<button id='plus'>+</button>
+	<ul id='root'></ul>
+	<button id='export'>Export JSON</button>
+
+	<script src='app.js' type="text/javascript"></script>
+
+
+</body>
+</html>
